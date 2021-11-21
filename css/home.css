@@ -1,0 +1,109 @@
+/* 
+light grey #797777
+
+dark grey #5b5b5b
+
+*/
+body{
+    font-family: 'Crimson Text', serif;
+}
+.nav-link{
+    color: #797777;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color:#f3632b;
+}
+nav ul{
+    margin-left: 100px;
+}
+.book{
+    position: fixed;
+    right:50px;
+    color: #f3632b;
+    background-color: white;
+    border: 1px white;
+    border-radius: 25px;
+    font-size: 18px
+}
+.book:hover {
+    color:white;
+    background-color: #f3632b;
+
+}
+/* first sec */
+.right-sec {
+    background-image: url(../img/st.jpeg);
+    height: 500px;
+    border-radius: 45px;
+    margin-top:-100px;
+    margin-right: -70px;
+    transform: rotate(20deg);
+}
+.left-sec{
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.left-sec h2{
+    color:#f3632b;
+    margin-bottom: 30px;
+}
+.firstp{
+    font-size: 40px;
+    color: #5b5b5b;
+    font-weight: bold;
+}
+.secondp{
+    color:#797777;
+    font-size: 18px;
+}
+.reserve{
+    border-width: 0px 1px;
+    font-size: 18px;
+    background-color: white;
+    margin-top:50px
+
+}
+.reserve:hover{
+    border-width:1px;
+}
+.reserve a{
+    color:#5b5b5b
+
+}
+.reserve a:hover{
+    color:#f3632b;
+    text-decoration: none;
+}
+.spoon{
+    transform:rotate(20deg);
+    margin-left:600px
+}
+/********************/
+.items {
+    color:#5b5b5b;
+}
+.card-img-top{
+    height: 200px;
+}
+/***********************************************/
+
+.hist {
+    margin-top: 100px;
+    transform: rotate(20deg);
+}
+.hist2{
+    margin-top: 180px;
+
+}
+.hist2 p,h4{
+   color: #5b5b5b
+}
+.hist2 h2{
+    color:#f3632b
+}
+/******************************************/
+.menu{
+    margin-top: 100px;
+    color: #5b5b5b
+}
