@@ -7,15 +7,18 @@ dark grey #5b5b5b
 body{
     font-family: 'Crimson Text', serif;
 }
+.navbar{
+    transition: all 0.5s;
+}
 .nav-link{
     color: #797777;
-    font-size: 18px;
+    font-size: 20px;
 }
 .nav-link:hover{
     color:#f3632b;
 }
 nav ul{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .book{
     position: fixed;
@@ -61,7 +64,7 @@ nav ul{
     border-width: 0px 1px;
     font-size: 18px;
     background-color: white;
-    margin-top:50px
+    margin-top:50px;
 
 }
 .reserve:hover{
@@ -83,8 +86,21 @@ nav ul{
 .items {
     color:#5b5b5b;
 }
+.items .card{
+    text-align: center;
+}
 .card-img-top{
     height: 200px;
+}
+.or-btn{
+    background-color: #f3632b ;
+    color:white;
+    border-radius: 45px;
+}
+.or-btn:hover{
+    color: #f3632b;
+    background-color: white ;
+    border-color: #f3632b;
 }
 /***********************************************/
 
@@ -96,7 +112,7 @@ nav ul{
     margin-top: 180px;
 
 }
-.hist2 p,h4{
+.hist2 p, .hist2 h4{
    color: #5b5b5b
 }
 .hist2 h2{
@@ -106,4 +122,139 @@ nav ul{
 .menu{
     margin-top: 100px;
     color: #5b5b5b
+}
+.menu-card{
+    max-width: 540px;
+    
+    margin-top: 50px;
+}
+.card-img{
+    height: 150px;
+}
+.menu p{
+    color:#f3632b  ;
+    font-size:20px 
+}
+/********************   FORM   *******************/
+.booking{
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    height: 500px;
+}
+form{
+    padding: 100px;
+    color: white
+}
+.form-control{
+    max-width: 300px;
+    margin:20px;
+    display: inline;
+    border:none;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    border-width: 0 0 1px 0;
+    box-shadow: none;
+    background:#f3632b;
+    color: white;
+
+
+}
+label{
+    color: #797777
+}
+/*******************************************/
+footer{
+    margin-top: 80px;
+    color:#5b5b5b ;
+    font-size: 22px;
+    
+
+}
+ul{
+    list-style-type: none;
+    padding: 0px;  
+    margin-top: 10px;
+
+
+}
+
+footer a{
+    display: block;
+    color:#5b5b5b ;
+    padding: 5px;
+    
+
+}
+footer a:hover{
+    text-decoration: none;
+    color:#f3632b ;
+
+}
+.copy{
+    border-top: 1px solid #797777 ;
+    font-size: 15px;
+    color:#797777
+}
+
+/***********************/
+/*    Tablet    */
+@media screen and (max-width:768px){
+    nav ul{
+        margin-left: 10px;
+    }
+
+    .right-sec {
+    margin-right: 0px;
+    transform: rotate(10deg);
+    }
+    .spoon{
+        margin-left:400px
+    }
+    .hist img{
+        width: 90%;
+        height: 300px;
+        
+    }
+    .hist2{
+        margin-top: 160px;
+    }
+    .booking{
+        height: 750px;
+    }
+    .items h4{
+        font-size: 17px;
+    }
+    .items .or-btn{
+        font-size: 16px;
+    }
+
+}
+/*********MOBILE********/
+@media screen and (max-width:400px){
+    .nav a{
+        font-size:14px;
+        margin-left: -10px;
+
+    }
+    
+    .book{
+        font-size: 14px;
+        position: fixed;
+        top:30px
+    }
+    .right-sec {
+        height: 350px;
+        border-radius: 45px;
+        margin-top:-100px;
+        margin-right: -70px;
+        transform: rotate(22deg);
+    }
+    .hist img{
+        height: 200px;
+    }
+    .hist2{
+        margin-top: 140px;
+    }
 }
